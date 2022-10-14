@@ -1,0 +1,41 @@
+node-randombytes (2.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Pirate Praveen ]
+  * New upstream version 2.1.0
+  * Bump debhelper compatibility level to 13
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Drop build dependency on dh-buildinfo (not needed)
+  * Switch to dh-sequence-nodejs
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 04 Dec 2020 17:36:30 +0530
+
+node-randombytes (2.0.6-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Move to salsa
+  * Bump policy and compat (no changes).
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 07 May 2018 23:19:40 +0200
+
+node-randombytes (2.0.5-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Improve debian packaging
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 30 Nov 2017 16:11:10 +0100
+
+node-randombytes (2.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #841673)
+
+ -- Sarath M S <debian@sarathms.me>  Thu, 27 Oct 2016 14:57:43 +0530

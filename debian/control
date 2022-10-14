@@ -1,0 +1,29 @@
+Source: node-randombytes
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sarath Madayil <debian@sarathms.me>
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , nodejs (>= 6) <!nocheck>
+ , node-safe-buffer (>= 5.1.0) <!nocheck>
+ , node-tape (>= 4.6) <!nocheck>
+ , node-tap (>= 10) <!nocheck>
+Standards-Version: 4.5.1
+Homepage: https://github.com/crypto-browserify/randombytes
+Vcs-Git: https://salsa.debian.org/js-team/node-randombytes.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-randombytes
+
+Package: node-randombytes
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-safe-buffer (>=5.1.0)
+Description: random bytes from browserify stand alone
+ randomBytes for the browser. Uses crypto/msCrypto.getRandomValues() in
+ the browser. In Node.js, it uses crypto.randomBytes().
+ .
+ Node.js is an event-based server-side JavaScript engine.
