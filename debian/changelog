@@ -1,3 +1,24 @@
+node-randombytes (2.1.0+~2.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-randombytes: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 11:51:36 +0000
+
+node-randombytes (2.1.0+~2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Thu, 30 Dec 2021 13:13:47 +0100
+
 node-randombytes (2.1.0-1) unstable; urgency=medium
 
   * Team upload

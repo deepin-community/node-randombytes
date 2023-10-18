@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: randombytes
 Upstream-Contact: https://github.com/crypto-browserify/randombytes/issues
 Source: https://github.com/crypto-browserify/randombytes
+ https://registry.npmjs.org/@types/randombytes
 
 Files: *
 Copyright: 2016-2018 Calvin Metcalf <cmetcalf@appgeo.com>
@@ -10,6 +11,10 @@ License: Expat
 Files: debian/*
 Copyright: 2016 Sarath Madayil <debian@sarathms.me>
  2017-2018 Bastien Roucariès <rouca@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
@@ -32,4 +37,3 @@ License: Expat
  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
